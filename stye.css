@@ -1,0 +1,538 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#nav{
+    height: 156px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px 0 80px;
+}
+
+#logo{
+    color: #12132D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.icons{
+    display: inline-flex;
+    height: 56px;
+    padding: 18px 16px;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    border: 1px solid rgba(3, 7, 18, 0.10);
+    background: rgba(18, 19, 45, 0.03);
+}
+#sign-in{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-flex;
+    height: 56px;
+    padding: 18px 40px;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #797DFC;
+    border: none;
+}
+#two-sec{
+    display: flex;
+    gap: 24px;
+}
+#head{
+    width: 100%;
+    height: 550px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background: #13142f;
+    align-items: center;
+    padding: 80px 0 80px 0;
+}
+.bgbanner{
+    background-image: url(./images/bgbanner.png);
+    width: 100%;
+    height: 550px;
+    /* flex-shrink: 0; */
+    background-repeat: no-repeat;
+}
+
+#para{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 180% */
+}
+
+#heading1{
+    width: 633px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 86px; /* 134.375% */
+}
+
+#retro{
+    background: linear-gradient(90deg, #797DFC 0.63%, rgba(47, 51, 103, 0.936) 41%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 86px;
+}
+
+.coupon-area{
+    display: flex;
+    width: 30.5vw;
+    height: 50px;
+    border-radius: 32px;
+    background-color: #ffffff;
+    overflow: hidden;
+    padding: 10px 20px 10px 20px;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    -ms-border-radius: 32px;
+    -o-border-radius: 32px;
+}
+.coupon-input{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    color: #444;
+}
+
+.apply{
+    background-color: #00ff08;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
+
+
+#form{
+    height: 288px;
+    padding: 48px;
+    background: #FFF;
+    border-radius: 32px;
+    /* display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex-shrink: 0;*/
+}
+.typo{
+    color: rgba(18, 19, 45, 0.80);
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.inr-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+}
+#banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+}
+
+#first-sec{
+    width: 470px;
+}
+.main-inner {
+    place-items: center;
+    width: 742px;
+    height: 280px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin: auto;
+}
+
+#category-sec{
+    width: 722px;
+    height: 270px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    border: 1px solid #797DFC;
+    background: rgba(121, 125, 252, 0.10);
+    display: flex;
+    gap: 24px;
+}
+/* #main{
+    display: flex;
+    justify-content: space-between;
+} */
+#notific-sec{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#d1{
+    width: 72px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FFF;
+}
+#status{
+    width: 18.667px;
+    height: 18.667px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 2px solid var(--white-white, #FFF);
+    background: var(--success-500, #10B981);
+}
+/* #d2{} */
+#category-name{
+    color: rgba(18, 19, 45, 0.80);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#author-name{
+    color: rgba(18, 19, 45, 0.80);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#content-title{
+    color: #12132D;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#content{
+    width: 569px;
+    color: rgba(18, 19, 45, 0.60);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+#line{
+    width: 596px;
+    height: 1px;
+    background: rgba(18, 19, 45, 0.25);
+}
+#view-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#view-icon{
+    display: flex;
+    gap: 25px;
+    /* align-items: center; */
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.icon{
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+}
+.count{
+    color: rgba(18, 19, 45, 0.60);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#email-icon{
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+}
+
+#title{
+    width: 354px;
+    height: 465px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: rgba(18, 19, 45, 0.05);
+}
+#msg-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 330px;
+}
+#msg-sec-head{
+    color: #12132D;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 10px;
+}
+#mark{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-right: 5px;
+}
+#p-mark{
+    color: rgba(18, 19, 45, 0.60);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.notific{
+    display: flex;
+    width: 326px;
+    height: 82px;
+    padding: 15px 16px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FFF;
+}
+#msgs{
+    width: 212px;
+    flex-shrink: 0;
+    color: #12132D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 162.5% */
+}
+#eye-icon{
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+}
+#views{
+    color: rgba(18, 19, 45, 0.60);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#forum-banner{
+    display: flex;
+    align-items: center;
+    height: 403px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background: #12132D;
+}
+/* #left{} */
+
+#left-h1{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+#left-p{
+    width: 652px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 166.667% */
+}
+
+#btn{
+    display: inline-flex;
+    height: 56px;
+    padding: 18px 40px;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #797DFC;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.img-icon{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+#card-date{
+    color: rgba(18, 19, 45, 0.60);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#date{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+#card-h3{
+    color: #12132D;
+    width: 326px;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 30px; /* 166.667% */
+}
+#card-h5{
+    color: rgba(18, 19, 45, 0.60);
+    width: 326px;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+#card-banner{
+    width: 326px;
+    height: 190px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: rgba(18, 19, 45, 0.05);
+}
+
+#prof-img{
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 44px;
+    background: url("/images/Ellipse 1.png"), lightgray 50% / cover no-repeat;
+}
+
+#name{
+    color: #12132D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#job-role{
+    color: rgba(18, 19, 45, 0.60);
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#profile{
+    display: flex;
+    gap: 15px;
+}
+
+
+#footer{
+    width: 100%;
+    height: 489px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, rgba(18, 19, 45, 0.05) 0%, rgba(18, 19, 45, 0.00) 100%);
+}
+
+#footer-h1{
+    color: #12132D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+#footer-p{
+    width: 604px;
+    color: rgba(18, 19, 45, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+}
+#social{
+    width: 174.322px;
+    height: 24px;
+    flex-shrink: 0;
+    vertical-align: middle;
+}
+#last-p{
+    color: rgba(18, 19, 45, 0.50);
+    font-family: Mulish;
+    font-size: 16px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
